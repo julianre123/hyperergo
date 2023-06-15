@@ -1,0 +1,129 @@
+.footer {
+}
+
+.footer__top {
+  background-image: url(https://websitedemos.net/office-furniture-store-04/wp-content/uploads/sites/913/2021/07/wfh-furniture-store-cta-img-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 600px;
+  position: relative;
+}
+.footer__top__bg {
+  background-color: #26222f;
+  opacity: 0.56;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer__top__banner {
+  text-align: center;
+  max-width: 1000px;
+}
+.footer__top__text {
+  margin-bottom: 40vh;
+}
+.footer__top__text > p {
+  margin-bottom: -10px;
+}
+.footer__top__text > h1 {
+  line-height: 90px;
+  letter-spacing: 2px;
+}
+.footer__top__btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: flex-start;
+}
+.footer__bottom__item {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+}
+.footer__bottom__item > h3 {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+.footer__bottom__item > ul {
+  list-style: none;
+
+  padding: 0;
+}
+.footer__bottom__item > ul > li {
+  margin-bottom: 7px;
+  color: #8b8698;
+  letter-spacing: 1px;
+}
+.footer__bottom__icons {
+  display: flex;
+  flex-direction: column;
+}
+.footer__bottom__icons > img {
+  width: 200px;
+  height: 32.72px;
+}
+.footer__icons {
+  display: flex;
+  gap: 30px;
+}
+.footer__icons > svg {
+  fill: #8b8698;
+  margin-top: 120px;
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  background-image: none;
+  min-height: 80px;
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-top-color: #f3f5f6;
+}
+.copyright > p {
+  color: #8b8698;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__top {
+    height: 300px;
+  }
+  .footer__top__text {
+    margin-bottom: 30vh;
+  }
+  .footer__top__text > h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-left: -20px;
+    margin-bottom: -40px;
+  }
+  .footer__top__btn {
+    margin-top: 0;
+  }
+  .footer__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__icons {
+    margin-top: -80px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+}

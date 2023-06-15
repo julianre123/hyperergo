@@ -1,0 +1,17 @@
+.about__fourth {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  gap: 20px;
+}
+
+.about__fourth__grid {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__fourth__grid {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,149 @@
+.office {
+  background-image: url(https://websitedemos.net/office-furniture-store-04/wp-content/uploads/sites/913/2021/07/furniture-store-office-page-header-img-bg.jpg);
+  height: 75vh;
+}
+.home {
+  background-image: url(https://websitedemos.net/office-furniture-store-04/wp-content/uploads/sites/913/2021/07/furniture-store-home-office-page-header-img-bg.jpg);
+}
+.office__text {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 600px;
+}
+.text__text {
+  margin-top: 40%;
+  color: white;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.text__text > h1 {
+  line-height: 1.4em;
+  font-size: 4.8rem;
+  margin: 0;
+}
+.text__text > p {
+  letter-spacing: 1px;
+}
+.border {
+  border-top: 1px solid #fbd84b;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.first__office {
+  display: flex;
+  align-items: center;
+}
+
+.first__side {
+  width: 50%;
+}
+.left > p {
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  font-size: 14px;
+}
+.left > h1 {
+  font-size: 50px;
+  letter-spacing: 1.5px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.right__border {
+  border: 1px solid #fbd84b;
+  width: 50px;
+  margin-bottom: 30px;
+}
+.right > p:nth-of-type(1) {
+  color: #8b8698;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.right > p:nth-of-type(2) {
+  color: black;
+  font-weight: 500;
+  border-bottom: 1px solid #fbd84b;
+  padding-bottom: 5px;
+  width: 100px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
+.right > p:nth-of-type(2):hover {
+  border-bottom: 1px solid black;
+}
+
+.second__office {
+  margin-top: 150px;
+}
+.second__ofice > p {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.second__office > h1 {
+  font-size: 40px;
+}
+.second__office__border {
+  margin-bottom: 50px;
+}
+.second__office__text {
+  text-align: start;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.second__left > h1 {
+  font-size: 35px;
+}
+.right__border {
+  margin-bottom: 10px;
+}
+.second__right > p:nth-of-type(1) {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.arrow__right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #fbd84b;
+  width: 130px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  font-weight: 500;
+}
+.arrow__right:hover {
+  border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .office {
+    height: 40vh;
+  }
+  .text__text {
+    margin-top: 25%;
+  }
+  .text__text > h1 {
+    font-size: 40px;
+  }
+  .first__office {
+    flex-direction: column;
+    align-items: start;
+  }
+  .first__side {
+    width: 100%;
+  }
+  .right {
+    margin-top: 0;
+  }
+}

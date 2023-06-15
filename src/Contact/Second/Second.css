@@ -1,0 +1,113 @@
+.contact__second {
+  margin-top: 50px;
+  display: flex;
+}
+
+.contact__touch {
+  width: 30%;
+}
+.contact__touch > h1 {
+  font-size: 45px;
+  letter-spacing: 1px;
+}
+.touch__address {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  border-bottom: 1px solid #fbd84b;
+  padding-bottom: 10px;
+}
+.address__icon {
+  color: #fbd84b;
+}
+.touch__address__text {
+  margin-top: -10px;
+}
+.touch__address__text > p:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 15px;
+}
+.touch__address__text > p:nth-of-type(2) {
+  font-size: 15px;
+  color: #8b8698;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+.contact__touch > h2 {
+  letter-spacing: 1px;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.contact__touch > p {
+  color: #8b8698;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+.touch__customer {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  margin-top: -10px;
+}
+.touch__customer > p {
+  color: #8b8698;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.contact__border {
+  border: 1px solid #fbd84b;
+  width: 70px;
+  position: absolute;
+  top: -80px;
+}
+
+.contact__form {
+  width: 70%;
+  margin-left: 100px;
+  position: relative;
+  margin-top: 150px;
+}
+.contact__form__input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+.contact__form__input > label {
+  color: #8b8698;
+  font-weight: 500;
+}
+.contact__form__input > input,
+.contact__form__input > textarea {
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+}
+.contact__btn {
+  padding: 13px 30px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__second {
+    flex-direction: column;
+  }
+  .contact__touch {
+    width: 100%;
+  }
+  .contact__form {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .contact__form {
+    margin-left: -15px;
+  }
+}

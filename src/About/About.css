@@ -1,0 +1,56 @@
+.about {
+  background-image: url(https://websitedemos.net/office-furniture-store-04/wp-content/uploads/sites/913/2021/07/furniture-store-about-page-header-img-bg.jpg);
+  height: 55vh;
+}
+.about__banner {
+  height: 55vh;
+}
+.about__text {
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 15%;
+}
+.about__text > h1 {
+  width: 50%;
+  font-size: 80px;
+  letter-spacing: 1.5px;
+}
+.about__text__text {
+  width: 45%;
+}
+.about__text__text > p {
+  padding-top: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.about__border {
+  margin-left: 0;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    height: 35vh;
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about__banner {
+    height: 35vh;
+  }
+  .about__text {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .about__text > h1 {
+    font-size: 40px;
+    width: 100%;
+  }
+  .about__text__text {
+    width: 100%;
+  }
+  .about__text__text > p {
+    font-size: 15px;
+  }
+}

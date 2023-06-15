@@ -1,0 +1,120 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background: transparent;
+  height: 100px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 1;
+  color: white;
+}
+
+.left__header > a > img {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.right__header {
+  display: flex;
+  margin-left: auto;
+}
+
+.right__icons {
+  margin-right: 30px;
+}
+.number {
+  color: white;
+  background-color: #26222f;
+  position: absolute;
+  left: 30px;
+  top: -20px;
+  font-size: 13px;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+.right__icons > a:nth-of-type(1) {
+  position: relative;
+}
+.icon1,
+.icon2 {
+  margin: 0 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.right > form {
+  display: block;
+  margin-top: 0em;
+}
+
+.right__input {
+  display: flex;
+}
+.right__input > input {
+  flex-grow: 1;
+  line-height: 1.8;
+  padding: 8px 30px;
+  color: #666;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background: #fafafa;
+  font-family: inherit;
+}
+.right__input > input::placeholder {
+  font-size: 17px;
+  position: absolute;
+  left: 5px;
+}
+.right__input > button {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin: 0 0 0 6px;
+  overflow: hidden;
+  padding: 0 0.5rem;
+  position: relative;
+  border: 1px solid #fbd84b;
+  color: #26222f;
+
+  font-weight: 600;
+  line-height: 1em;
+  border-radius: 4px;
+}
+.active {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .header__mobile {
+    z-index: 100;
+  }
+  .header__mobile__menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 1000px;
+    width: 100vw;
+    background-color: red;
+    height: 100vh;
+    transition: transform 0.3s linear;
+  }
+  .header__mobile__menu > ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: -40px;
+  }
+  .header__mobile__menu > ul > li {
+    background-color: #fafafa;
+    padding: 30px;
+    border: 1px solid #ddd;
+  }
+  .header__mobile__menu > ul > li:hover {
+    color: black;
+  }
+}

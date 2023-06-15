@@ -1,0 +1,46 @@
+.second__office {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.second__office > p {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.second__office > h1 {
+  font-size: 40px;
+}
+.second__border__office {
+  margin-bottom: 50px;
+}
+.second__office__text {
+  text-align: start;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.second__left > h1 {
+  font-size: 35px;
+}
+.right__border {
+  margin-bottom: 10px;
+}
+.second__right > p:nth-of-type(1) {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.arrow__right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #fbd84b;
+  width: 130px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  font-weight: 500;
+}
+.arrow__right:hover {
+  border-bottom: 1px solid black;
+}
